@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="name"></p>
+    <p id="job"></p>
+    <hr />
+    <span>设置姓名</span>
+    <input type="text" id="nameInput" oninput="person.name = this.value" />
+    <br />
+    <span>设置工作</span>
+    <input type="text" id="jobInput" oninput="person.job = this.value" />
+
+    <script src="./vue.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
